@@ -1,0 +1,27 @@
+local opt = vim.opt -- to set options
+vim.cmd 'set nohlsearch'
+opt.syntax = 'on'
+opt.cursorline = false
+opt.number = true
+opt.ignorecase = true
+opt.smartcase = true
+opt.relativenumber = true
+opt.tabstop = 4
+opt.hidden = true
+opt.softtabstop = 4
+opt.shiftwidth = 4
+opt.expandtab = true
+opt.smartindent = true
+opt.wrap = false
+opt.linebreak = true
+opt.incsearch = true
+opt.scrolloff = 10
+opt.sidescrolloff = 10
+opt.showtabline = 0
+opt.clipboard = 'unnamedplus'
+opt.signcolumn = 'yes'
+opt.timeoutlen = 500
+opt.completeopt = {'menu', 'menuone', 'noselect'}
+opt.termguicolors = true
+opt.showtabline = 2
+-- vim.cmd 'highlight SignColumn guibg=bg'

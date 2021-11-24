@@ -1,0 +1,23 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": ["js", "css", "html", "json", "c"],
+  "coc.preferences.enableFloatHighlight": true,
+  "Lua.window.statusBar": false,
+  "prettier.statusItemText": "",
+  "coc.preferences.snippetStatusText": "",
+  "list.statusLineSegments": [],
+  "languageserver": {
+    "ccls": {
+      "command": "ccls",
+      "filetypes": ["c", "cpp", "cuda", "objc", "objcpp"],
+      "rootPatterns": [".ccls-root", "compile_commands.json"],
+      "initializationOptions": {
+        "cache": {
+          "directory": ".ccls-cache"
+        },
+        "client": {
+          "snippetSupport": true
+        }
+      }
+    }
+  }
+}
